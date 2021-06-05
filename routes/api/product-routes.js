@@ -8,7 +8,16 @@ router.get('/', (req, res) => {
   // find all products
   // be sure to include its associated Category and Tag data
   Product.findAll({
-    // include: [Category, Tag]
+    include: [
+      {
+        model:Category
+      },
+      {
+        model: Tag,
+        attributes: ['id', 'tag_name'],
+        through: ProductTag
+      }
+    ]
   })
   .then(dbProduct => res.json(dbProduct))
   .catch(err => {
@@ -20,7 +29,23 @@ router.get('/', (req, res) => {
 router.get('/:id', (req, res) => {
   // find a single product by its `id`
   // be sure to include its associated Category and Tag data
-
+  Product.findOne({
+    where: { id: req.params.id },
+    include: [
+      {
+        model: Category
+      },
+      {
+        model: Tag,
+        attributes: ['id', 'tag_name'],
+        through: ProductTag
+      }
+    ]
+  })
+  .then(dbProduct => res.json(dbProduct))
+  .catch(err => {
+    res.status(500).json({ message: 'Unable to find product' })
+  })
 });
 
 // create new product
@@ -99,6 +124,13 @@ router.put('/:id', (req, res) => {
 
 router.delete('/:id', (req, res) => {
   // delete one product by its `id` value
+  Product.destroy({
+    where: { id: req.params.id }
+  })
+  .then(dbProductDelete => res.json(dbProductDelete))
+  .catch(err => {
+    res.status(500).json({ message: 'Unable to find that product' })
+  })
 });
 
 module.exports = router;
