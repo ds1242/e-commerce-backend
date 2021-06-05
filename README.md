@@ -1,4 +1,4 @@
-  # E-Commerce-Backend 
+  # E-Commerce-Backend ![badmath](https://img.shields.io/badge/license-MIT-blue)
 
   ## About/Description
 
@@ -21,7 +21,7 @@
   ## Usage
 
   ### Screenshots
-  
+
 
   ## Languages
 
@@ -35,7 +35,7 @@
 
   ## License
 
-  No license was selected
+  https://choosealicense.com/licenses/mit/ 
 
   ## Tests
 
