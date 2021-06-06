@@ -1,4 +1,4 @@
-  # E-Commerce-Backend ![badmath](https://img.shields.io/badge/license-MIT-blue)
+  # Object-Relational Mapping: E-Commerce-Backend ![badmath](https://img.shields.io/badge/license-MIT-blue)
 
   ## About/Description
 
@@ -20,7 +20,84 @@
 
   ## Usage
 
+  ### Video of Application Running
+  
+  https://drive.google.com/file/d/1AHQCI7jnRJmzYfUULPn_bEbHWEOtMRNJ/view 
+
   ### Screenshots
+  
+  ##### Tag GET All
+
+  <img width="700" src="./img/Tag GET All.jpg" alt="get all tag items">
+
+  ##### Tag GET Single
+
+  <img width="700" src="./img/Tag GET Single.jpg" alt="get one tag items">
+
+  ##### Tag Delete
+
+  <img width="700" src="./img/Tag DELETE.jpg" alt="delete a tag item">
+
+  ##### Tag item has been deleted
+
+  <img width="700" src="./img/Tag Delete.jpg" alt="tag item removed">
+
+  ##### Tag POST
+
+  <img width="700" src="./img/Tag POST.jpg" alt="create a new tag item">
+
+  ##### Tag PUT
+
+  <img width="700" src="./img/Tag PUT.jpg" alt="update a tag item">
+
+  ##### Tag item updated
+
+  <img width="700" src="./img/Tag Updated.jpg" alt="tag item updated">
+
+  ##### Product GET All
+
+  <img width="700" src="./img/Product GET All.jpg" alt="query all products">
+  
+  ##### Product GET Single
+
+  <img width="700" src="./img/Product GET Single.jpg" alt="query specific product">
+
+  ##### Product POST
+
+  <img width="700" src="./img/Product POST.jpg" alt="create new product">
+
+  ##### Product PUT
+
+  <img width="700" src="./img/Product PUT.jpg" alt="update a product">
+
+  ##### Product DELETE
+
+  <img width="700" src="./img/Product DELETE.jpg" alt="delete a product">
+
+  ##### Category GET All
+
+  <img width="700" src="./img/Category GET all.jpg" alt="query all categories">
+
+  ##### Category GET Single
+
+  <img width="700" src="./img/Category GET Single.jpg" alt="query single">
+
+  ##### Category POST
+
+  <img width="700" src="./img/Category POST.jpg" alt="create new category">
+
+  ##### Category PUT
+
+  <img width="700" src="./img/Category PUT.jpg" alt="update category">
+
+  ##### Category has been updated
+
+  <img width="700" src="./img/Category Updated.jpg" alt="showing the category has been updated">
+
+  ##### Category DELETE
+
+  <img width="700" src="./img/Category DELETE.jpg" alt="delete a category">
+
 
 
   ## Languages
