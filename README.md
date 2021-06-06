@@ -21,7 +21,7 @@
   ## Usage
 
   ### Video of Application Running
-  
+
   https://drive.google.com/file/d/1AHQCI7jnRJmzYfUULPn_bEbHWEOtMRNJ/view 
 
   ### Screenshots
@@ -40,7 +40,7 @@
 
   ##### Tag item has been deleted
 
-  <img width="700" src="./img/Tag Delete.jpg" alt="tag item removed">
+  <img width="700" src="./img/Tag Deleted.jpg" alt="tag item removed">
 
   ##### Tag POST
 
@@ -84,7 +84,7 @@
 
   ##### Category POST
 
-  <img width="700" src="./img/Category POST.jpg" alt="create new category">
+  <img width="700" src="./img/Category Post.jpg" alt="create new category">
 
   ##### Category PUT
 
